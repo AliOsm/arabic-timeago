@@ -116,7 +116,7 @@
       } else if (dim >= 11 && dim <= 50) {
         return "" + dim + " " + this.options.lang.units.minute;
       } else if (dim >= 51 && dim <= 89) {
-        return "" + this.options.lang.prefixes.about + this.options.lang.units.hour;
+        return "" + this.options.lang.prefixes.about + " "  + this.options.lang.units.hour;
       } else if (dim >= 90 && dim <= 149) {
         return "" + this.options.lang.prefixes.about + " " + this.options.lang.units.two_hours;
       } else if (dim >= 150 && dim <= 599) {
@@ -132,19 +132,19 @@
       } else if (dim >= 14400 && dim <= 43199) {
         return "" + (Math.round(dim / 1440)) + " " + this.options.lang.units.day;
       } else if (dim >= 43200 && dim <= 86399) {
-        return "" + this.options.lang.prefixes.about + this.options.lang.units.month;
+        return "" + this.options.lang.prefixes.about + " " + this.options.lang.units.month;
       } else if (dim >= 86400 && dim <= 129599) {
-        return "" + this.options.lang.prefixes.about + this.options.lang.units.two_months;
+        return "" + this.options.lang.prefixes.about + " " + this.options.lang.units.two_months;
       } else if (dim >= 129600 && dim <= 431999) {
         return "" + (Math.round(dim / 43200)) + " " + this.options.lang.units.months;
       } else if (dim >= 432000 && dim <= 525599) {
         return "" + (Math.round(dim / 43200)) + " " + this.options.lang.units.month;
       } else if (dim >= 525600 && dim <= 655199) {
-        return "" + this.options.lang.prefixes.about + this.options.lang.units.year;
+        return "" + this.options.lang.prefixes.about + " " + this.options.lang.units.year;
       } else if (dim >= 655200 && dim <= 914399) {
-        return "" + this.options.lang.prefixes.over + this.options.lang.units.year;
+        return "" + this.options.lang.prefixes.over + " " + this.options.lang.units.year;
       } else if (dim >= 914400 && dim <= 1051199) {
-        return "" + this.options.lang.prefixes.almost + this.options.lang.units.two_years;
+        return "" + this.options.lang.prefixes.almost + " " + this.options.lang.units.two_years;
       } else if (dim >= 1051200 && dim <= 5184000) {
         return "" + (Math.round(dim / 525600)) + " " + this.options.lang.units.years;
       } else {
