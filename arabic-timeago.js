@@ -105,7 +105,7 @@
     TimeAgo.prototype.distanceOfTimeInWords = function(absolutTime) {
       var dim;
       dim = this.getTimeDistanceInMinutes(absolutTime);
-      if (dim === 0) {
+      if (dim === 0 || inNaN(dim)) {
         return "" + this.options.lang.prefixes.lt + " " + this.options.lang.units.minute;
       } else if (dim === 1) {
         return "" + this.options.lang.prefixes.about + " " + this.options.lang.units.minute;
