@@ -33,7 +33,7 @@
 
 إستخدام الإضافة سهل جداً ، بعد إرفاق ملف الإضافة في صفحتك قم بإضافة وسم الوقت كالتالي :
 
-    <time class="timeago" datetime="2015-03-06T07:51:50Z"></time>
+    <time class="timeago" datetime="2015-03-06 07:51:50 Z"></time>
 
 `datetime` | مع إمكانية تغيير خاصية الوقت و التاريخ بالوقت الذي تريد
 
@@ -55,8 +55,8 @@
 
 ```
 <div class="timeLables">
- <time class="timeago" datetime="2015-03-06T07:51:50Z">about 8 hours ago</time>
- <time class="timeago" datetime="2015-03-06T07:51:50Z">about 9 hours ago</time>
+ <time class="timeago" datetime="2015-03-06 07:51:50 Z"></time>
+ <time class="timeago" datetime="2015-03-06 07:51:50 Z"></time>
 </div>
 
 $('.timeLables').timeago();
@@ -85,7 +85,7 @@ or
 * قم بإضافة وسم الوقت عن طريق دوال روبي أون ريلز المساعدة في صفحات الويب الخاصة بك كالتالي
 
 ````
-<%= content_tag :time, '', class: 'timeago', datetime: 2.days.ago.iso8601 %>
+<%= content_tag :time, '', class: 'timeago', datetime: "2015-04-11 13:00:00 Z" %>
 ````
 
 * قم بإضافة كود الجافا سكريبت إلى نهاية وسم جسم الصفحة كالتالي
