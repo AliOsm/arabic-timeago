@@ -105,11 +105,11 @@ or
 
 يمكنك رؤية هذا [المثال](https://github.com/AliOsm/arabic-timeago-example) والذي يوضح كيفية إستخدام هذه الإضافة .
 
-رخصة الاستخدام
+License
 ------------
 
-MIT تم ترخيصها تحت رخصة 
+Released under the MIT License
 
 smart-time-ago [License](https://github.com/pragmaticly/smart-time-ago/blob/master/LICENSE)
 
-حقوق النشر (c) 2015 [AliOsm](http://fb.com/Ali.L.Malak)
+Copyright (c) 2015 [AliOsm](http://fb.com/Ali.L.Malak)
