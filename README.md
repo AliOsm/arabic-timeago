@@ -108,7 +108,7 @@ or
 رخصة الاستخدام
 ------------
 
-تم ترخيصها تحت رخصة MIT
+MIT تم ترخيصها تحت رخصة 
 
 smart-time-ago [License](https://github.com/pragmaticly/smart-time-ago/blob/master/LICENSE)
 
