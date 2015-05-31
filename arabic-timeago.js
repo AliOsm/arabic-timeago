@@ -1,7 +1,7 @@
 // Copyright 2015, AliOsm
 // https://fb.com/Ali.L.Malak
 // https://github.com/AliOsm/arabic-timeago
-// Licensed under the MIT license.
+// Released under the MIT license.
 // https://github.com/pragmaticly/smart-time-ago/blob/master/LICENSE
 
 (function() {
