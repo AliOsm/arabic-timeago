@@ -168,11 +168,8 @@ or
 والذي يوضح كيفية إستخدام هذه الإضافة .
 </p>
 
-License
-------------
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/AliOsm/arabic-timeago.
 
-Released under the MIT License
-
-smart-time-ago [License](https://github.com/pragmaticly/smart-time-ago/blob/master/LICENSE)
-
-Copyright (c) 2015 [AliOsm](http://fb.com/aliosm97)
+## License
+The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
