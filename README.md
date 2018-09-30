@@ -175,4 +175,4 @@ Released under the MIT License
 
 smart-time-ago [License](https://github.com/pragmaticly/smart-time-ago/blob/master/LICENSE)
 
-Copyright (c) 2015 [AliOsm](http://fb.com/Ali.L.Malak)
+Copyright (c) 2015 [AliOsm](http://fb.com/aliosm97)
